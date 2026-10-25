@@ -1,0 +1,747 @@
+
+2026-10-22T09:39:25.0573562+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,176
+2026-10-22T09:39:25.1071241+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,175
+2026-10-22T09:39:25.1072728+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,175
+2026-10-22T09:39:25.1571068+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,174
+2026-10-22T09:39:25.1572100+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,174
+2026-10-22T09:39:25.2070965+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,173
+2026-10-22T09:39:25.2072769+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,173
+2026-10-22T09:39:25.2170059+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,43
+2026-10-22T09:39:25.2171758+02:00,LocalVariable,Pressure Ox,ns=2;s=b7fca20b-c01d-4237-bc41-0ca6f2c08058,17
+2026-10-22T09:39:25.2172195+02:00,LocalVariable,Pressure Fuel,ns=2;s=8d8b724a-8fc8-4acd-80fa-1f85a11b395d,17
+2026-10-22T09:39:25.2172591+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,43
+2026-10-22T09:39:25.2173049+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,43
+2026-10-22T09:39:25.2173410+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,43
+2026-10-22T09:39:25.2174387+02:00,LocalVariable,FAULT_TC_FEED_PRESSURE,ns=2;s=e471a722-deb0-48f6-a545-e8ef0ebae803,False
+2026-10-22T09:39:25.2570275+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,172
+2026-10-22T09:39:25.2571873+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,172
+2026-10-22T09:39:25.3042603+02:00,LocalEvent,FIRE,ns=2;s=8b50e556-2697-45a0-9d44-748014b4d739,Undefined
+2026-10-22T09:39:25.3071082+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,171
+2026-10-22T09:39:25.3072550+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,171
+2026-10-22T09:39:25.3169464+02:00,LocalVariable,STATE_IDLE,ns=2;s=cbc27595-c17d-42fc-9351-18fd76c250eb,False
+2026-10-22T09:39:25.3169525+02:00,LocalVariable,STATE_FIRE,ns=2;s=2d4c4987-37d8-4972-942b-34936e4b83c8,True
+2026-10-22T09:39:25.3272616+02:00,LocalVariable,EXCITER NEG,ns=2;s=ebdaf874-e32b-4ee5-9909-8c47f069e89e,True
+2026-10-22T09:39:25.3569459+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,170
+2026-10-22T09:39:25.3571121+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,170
+2026-10-22T09:39:25.4070026+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,42
+2026-10-22T09:39:25.4070087+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,169
+2026-10-22T09:39:25.4071792+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,169
+2026-10-22T09:39:25.4071888+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,42
+2026-10-22T09:39:25.4072576+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,42
+2026-10-22T09:39:25.4072819+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,42
+2026-10-22T09:39:25.4570477+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,168
+2026-10-22T09:39:25.4572068+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,168
+2026-10-22T09:39:25.5069773+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,167
+2026-10-22T09:39:25.5071639+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,167
+2026-10-22T09:39:25.5569451+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,166
+2026-10-22T09:39:25.5571024+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,166
+2026-10-22T09:39:25.6069550+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,41
+2026-10-22T09:39:25.6069611+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,165
+2026-10-22T09:39:25.6071118+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,165
+2026-10-22T09:39:25.6071369+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,41
+2026-10-22T09:39:25.6071858+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,41
+2026-10-22T09:39:25.6072115+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,41
+2026-10-22T09:39:25.6569504+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,164
+2026-10-22T09:39:25.6602422+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,164
+2026-10-22T09:39:25.7069444+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,163
+2026-10-22T09:39:25.7072061+02:00,LocalVariable,Pressure Ox,ns=2;s=b7fca20b-c01d-4237-bc41-0ca6f2c08058,16
+2026-10-22T09:39:25.7072075+02:00,LocalVariable,Pressure Fuel,ns=2;s=8d8b724a-8fc8-4acd-80fa-1f85a11b395d,16
+2026-10-22T09:39:25.7073302+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,163
+2026-10-22T09:39:25.7568687+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,162
+2026-10-22T09:39:25.7570909+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,162
+2026-10-22T09:39:25.8069114+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,40
+2026-10-22T09:39:25.8069228+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,161
+2026-10-22T09:39:25.8073841+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,161
+2026-10-22T09:39:25.8073871+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,40
+2026-10-22T09:39:25.8073879+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,40
+2026-10-22T09:39:25.8073886+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,40
+2026-10-22T09:39:25.8569211+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,160
+2026-10-22T09:39:25.8570706+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,160
+2026-10-22T09:39:25.9068697+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,159
+2026-10-22T09:39:25.9070227+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,159
+2026-10-22T09:39:25.9568863+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,158
+2026-10-22T09:39:25.9570390+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,158
+2026-10-22T09:39:26.0068570+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,39
+2026-10-22T09:39:26.0068625+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,157
+2026-10-22T09:39:26.0070454+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,157
+2026-10-22T09:39:26.0070712+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,39
+2026-10-22T09:39:26.0071293+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,39
+2026-10-22T09:39:26.0071515+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,39
+2026-10-22T09:39:26.0567740+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,156
+2026-10-22T09:39:26.0569869+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,156
+2026-10-22T09:39:26.1068189+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,155
+2026-10-22T09:39:26.1069777+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,155
+2026-10-22T09:39:26.1568184+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,154
+2026-10-22T09:39:26.1569496+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,154
+2026-10-22T09:39:26.2068269+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,38
+2026-10-22T09:39:26.2068334+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,153
+2026-10-22T09:39:26.2069476+02:00,LocalVariable,Pressure Ox,ns=2;s=b7fca20b-c01d-4237-bc41-0ca6f2c08058,15
+2026-10-22T09:39:26.2069495+02:00,LocalVariable,Pressure Fuel,ns=2;s=8d8b724a-8fc8-4acd-80fa-1f85a11b395d,15
+2026-10-22T09:39:26.2070096+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,153
+2026-10-22T09:39:26.2070429+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,38
+2026-10-22T09:39:26.2070992+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,38
+2026-10-22T09:39:26.2071295+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,38
+2026-10-22T09:39:26.2073699+02:00,LocalVariable,FAULT_TC_FEED_PRESSURE,ns=2;s=e471a722-deb0-48f6-a545-e8ef0ebae803,True
+2026-10-22T09:39:26.2073713+02:00,LocalVariable,FAULT_TC_OX_ULLAGE,ns=2;s=3f00b93d-59a8-4bc9-9dc8-38fe4e104685,True
+2026-10-22T09:39:26.2073724+02:00,LocalVariable,FAULT_TC_OX_LIQUID,ns=2;s=e80a5f68-797e-4347-b02a-96b447d096cd,True
+2026-10-22T09:39:26.2073739+02:00,LocalVariable,FAULT_TC_OX_INJECTOR,ns=2;s=8553371a-a797-47b9-8152-17886586a9b1,False
+2026-10-22T09:39:26.2569020+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,152
+2026-10-22T09:39:26.2570830+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,152
+2026-10-22T09:39:26.3068154+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,151
+2026-10-22T09:39:26.3070054+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,151
+2026-10-22T09:39:26.3567199+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,150
+2026-10-22T09:39:26.3568978+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,150
+2026-10-22T09:39:26.4067839+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,37
+2026-10-22T09:39:26.4067903+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,149
+2026-10-22T09:39:26.4069696+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,149
+2026-10-22T09:39:26.4071463+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,37
+2026-10-22T09:39:26.4074137+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,37
+2026-10-22T09:39:26.4074154+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,37
+2026-10-22T09:39:26.4567730+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,148
+2026-10-22T09:39:26.4569471+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,148
+2026-10-22T09:39:26.5067409+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,147
+2026-10-22T09:39:26.5068746+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,147
+2026-10-22T09:39:26.5567031+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,146
+2026-10-22T09:39:26.5568687+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,146
+2026-10-22T09:39:26.6066836+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,36
+2026-10-22T09:39:26.6066899+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,145
+2026-10-22T09:39:26.6069223+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,145
+2026-10-22T09:39:26.6069241+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,36
+2026-10-22T09:39:26.6070122+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,36
+2026-10-22T09:39:26.6070474+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,36
+2026-10-22T09:39:26.6567344+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,144
+2026-10-22T09:39:26.6568724+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,144
+2026-10-22T09:39:26.7066797+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,143
+2026-10-22T09:39:26.7067777+02:00,LocalVariable,Pressure Ox,ns=2;s=b7fca20b-c01d-4237-bc41-0ca6f2c08058,14
+2026-10-22T09:39:26.7067798+02:00,LocalVariable,Pressure Fuel,ns=2;s=8d8b724a-8fc8-4acd-80fa-1f85a11b395d,14
+2026-10-22T09:39:26.7069016+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,143
+2026-10-22T09:39:26.7566816+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,142
+2026-10-22T09:39:26.7568525+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,142
+2026-10-22T09:39:26.8066377+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,35
+2026-10-22T09:39:26.8066467+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,141
+2026-10-22T09:39:26.8068095+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,141
+2026-10-22T09:39:26.8068121+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,35
+2026-10-22T09:39:26.8069237+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,35
+2026-10-22T09:39:26.8069660+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,35
+2026-10-22T09:39:26.8566250+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,140
+2026-10-22T09:39:26.8568123+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,140
+2026-10-22T09:39:26.9065771+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,139
+2026-10-22T09:39:26.9067365+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,139
+2026-10-22T09:39:26.9565524+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,138
+2026-10-22T09:39:26.9566980+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,138
+2026-10-22T09:39:27.0065497+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,34
+2026-10-22T09:39:27.0065566+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,137
+2026-10-22T09:39:27.0067199+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,137
+2026-10-22T09:39:27.0067378+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,34
+2026-10-22T09:39:27.0068001+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,34
+2026-10-22T09:39:27.0068261+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,34
+2026-10-22T09:39:27.0565645+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,136
+2026-10-22T09:39:27.0566917+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,136
+2026-10-22T09:39:27.1065385+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,135
+2026-10-22T09:39:27.1066999+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,135
+2026-10-22T09:39:27.1565207+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,134
+2026-10-22T09:39:27.1567382+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,134
+2026-10-22T09:39:27.2066021+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,33
+2026-10-22T09:39:27.2066121+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,133
+2026-10-22T09:39:27.2067233+02:00,LocalVariable,Pressure Ox,ns=2;s=b7fca20b-c01d-4237-bc41-0ca6f2c08058,13
+2026-10-22T09:39:27.2067270+02:00,LocalVariable,Pressure Fuel,ns=2;s=8d8b724a-8fc8-4acd-80fa-1f85a11b395d,13
+2026-10-22T09:39:27.2068648+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,133
+2026-10-22T09:39:27.2068671+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,33
+2026-10-22T09:39:27.2069585+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,33
+2026-10-22T09:39:27.2069898+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,33
+2026-10-22T09:39:27.2070759+02:00,LocalVariable,FAULT_TC_FEED_PRESSURE,ns=2;s=e471a722-deb0-48f6-a545-e8ef0ebae803,False
+2026-10-22T09:39:27.2564639+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,132
+2026-10-22T09:39:27.2566294+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,132
+2026-10-22T09:39:27.3065796+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,131
+2026-10-22T09:39:27.3068218+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,131
+2026-10-22T09:39:27.3368500+02:00,LocalVariable,Igniter OX,ns=2;s=2ec78248-dd8f-4cee-bc17-18806a956e24,True
+2026-10-22T09:39:27.3369474+02:00,LocalVariable,Igniter FUEL,ns=2;s=c8c9c9a9-506b-44d7-93b7-ad953a5e7c1d,True
+2026-10-22T09:39:27.3564039+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,130
+2026-10-22T09:39:27.3566171+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,130
+2026-10-22T09:39:27.4064121+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,32
+2026-10-22T09:39:27.4064153+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,129
+2026-10-22T09:39:27.4066793+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,129
+2026-10-22T09:39:27.4066805+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,32
+2026-10-22T09:39:27.4068064+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,32
+2026-10-22T09:39:27.4068075+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,32
+2026-10-22T09:39:27.4566628+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,128
+2026-10-22T09:39:27.4569236+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,128
+2026-10-22T09:39:27.5080778+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,127
+2026-10-22T09:39:27.5086273+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,127
+2026-10-22T09:39:27.5564127+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,126
+2026-10-22T09:39:27.5565647+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,126
+2026-10-22T09:39:27.6063542+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,31
+2026-10-22T09:39:27.6063712+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,125
+2026-10-22T09:39:27.6065237+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,125
+2026-10-22T09:39:27.6065778+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,31
+2026-10-22T09:39:27.6066446+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,31
+2026-10-22T09:39:27.6067245+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,31
+2026-10-22T09:39:27.6563634+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,124
+2026-10-22T09:39:27.6566529+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,124
+2026-10-22T09:39:27.7063303+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,123
+2026-10-22T09:39:27.7064199+02:00,LocalVariable,Pressure Ox,ns=2;s=b7fca20b-c01d-4237-bc41-0ca6f2c08058,12
+2026-10-22T09:39:27.7064251+02:00,LocalVariable,Pressure Fuel,ns=2;s=8d8b724a-8fc8-4acd-80fa-1f85a11b395d,12
+2026-10-22T09:39:27.7065085+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,123
+2026-10-22T09:39:27.7563038+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,122
+2026-10-22T09:39:27.7564703+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,122
+2026-10-22T09:39:27.8062936+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,121
+2026-10-22T09:39:27.8064108+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,121
+2026-10-22T09:39:27.8162061+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,30
+2026-10-22T09:39:27.8163928+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,30
+2026-10-22T09:39:27.8164343+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,30
+2026-10-22T09:39:27.8164578+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,30
+2026-10-22T09:39:27.8563500+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,120
+2026-10-22T09:39:27.8565484+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,120
+2026-10-22T09:39:27.9063092+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,119
+2026-10-22T09:39:27.9064467+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,119
+2026-10-22T09:39:27.9562410+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,118
+2026-10-22T09:39:27.9563852+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,118
+2026-10-22T09:39:28.0062422+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,29
+2026-10-22T09:39:28.0062491+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,117
+2026-10-22T09:39:28.0064167+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,117
+2026-10-22T09:39:28.0064675+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,29
+2026-10-22T09:39:28.0065403+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,29
+2026-10-22T09:39:28.0065796+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,29
+2026-10-22T09:39:28.0562804+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,116
+2026-10-22T09:39:28.0564886+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,116
+2026-10-22T09:39:28.1062571+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,115
+2026-10-22T09:39:28.1063904+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,115
+2026-10-22T09:39:28.1562289+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,114
+2026-10-22T09:39:28.1563986+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,114
+2026-10-22T09:39:28.2062432+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,28
+2026-10-22T09:39:28.2062498+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,113
+2026-10-22T09:39:28.2063456+02:00,LocalVariable,Pressure Ox,ns=2;s=b7fca20b-c01d-4237-bc41-0ca6f2c08058,11
+2026-10-22T09:39:28.2063473+02:00,LocalVariable,Pressure Fuel,ns=2;s=8d8b724a-8fc8-4acd-80fa-1f85a11b395d,11
+2026-10-22T09:39:28.2064279+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,113
+2026-10-22T09:39:28.2064862+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,28
+2026-10-22T09:39:28.2066228+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,28
+2026-10-22T09:39:28.2066246+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,28
+2026-10-22T09:39:28.2068057+02:00,LocalVariable,FAULT_TC_FEED_PRESSURE,ns=2;s=e471a722-deb0-48f6-a545-e8ef0ebae803,True
+2026-10-22T09:39:28.2069586+02:00,LocalVariable,FAULT_TC_OX_ULLAGE,ns=2;s=3f00b93d-59a8-4bc9-9dc8-38fe4e104685,False
+2026-10-22T09:39:28.2562238+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,112
+2026-10-22T09:39:28.2563988+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,112
+2026-10-22T09:39:28.3062807+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,111
+2026-10-22T09:39:28.3064669+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,111
+2026-10-22T09:39:28.3562617+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,110
+2026-10-22T09:39:28.3564777+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,110
+2026-10-22T09:39:28.4061979+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,27
+2026-10-22T09:39:28.4062050+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,109
+2026-10-22T09:39:28.4063517+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,109
+2026-10-22T09:39:28.4064039+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,27
+2026-10-22T09:39:28.4064651+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,27
+2026-10-22T09:39:28.4064942+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,27
+2026-10-22T09:39:28.4562139+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,108
+2026-10-22T09:39:28.4564148+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,108
+2026-10-22T09:39:28.5061306+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,107
+2026-10-22T09:39:28.5062632+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,107
+2026-10-22T09:39:28.5561587+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,106
+2026-10-22T09:39:28.5563180+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,106
+2026-10-22T09:39:28.6061147+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,26
+2026-10-22T09:39:28.6061211+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,105
+2026-10-22T09:39:28.6062736+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,105
+2026-10-22T09:39:28.6062968+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,26
+2026-10-22T09:39:28.6063751+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,26
+2026-10-22T09:39:28.6064049+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,26
+2026-10-22T09:39:28.6562417+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,104
+2026-10-22T09:39:28.6565364+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,104
+2026-10-22T09:39:28.7060981+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,103
+2026-10-22T09:39:28.7084304+02:00,LocalVariable,Pressure Ox,ns=2;s=b7fca20b-c01d-4237-bc41-0ca6f2c08058,10
+2026-10-22T09:39:28.7084327+02:00,LocalVariable,Pressure Fuel,ns=2;s=8d8b724a-8fc8-4acd-80fa-1f85a11b395d,10
+2026-10-22T09:39:28.7087152+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,103
+2026-10-22T09:39:28.7560791+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,102
+2026-10-22T09:39:28.7562259+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,102
+2026-10-22T09:39:28.8060807+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,25
+2026-10-22T09:39:28.8060895+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,101
+2026-10-22T09:39:28.8062567+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,101
+2026-10-22T09:39:28.8062782+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,25
+2026-10-22T09:39:28.8063375+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,25
+2026-10-22T09:39:28.8063676+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,25
+2026-10-22T09:39:28.8560752+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,100
+2026-10-22T09:39:28.8562547+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,100
+2026-10-22T09:39:28.9060364+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,99
+2026-10-22T09:39:28.9061925+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,99
+2026-10-22T09:39:28.9560367+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,98
+2026-10-22T09:39:28.9562046+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,98
+2026-10-22T09:39:29.0060113+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,24
+2026-10-22T09:39:29.0060182+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,97
+2026-10-22T09:39:29.0062363+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,97
+2026-10-22T09:39:29.0062388+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,24
+2026-10-22T09:39:29.0062881+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,24
+2026-10-22T09:39:29.0063197+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,24
+2026-10-22T09:39:29.0559842+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,96
+2026-10-22T09:39:29.0561771+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,96
+2026-10-22T09:39:29.1060038+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,95
+2026-10-22T09:39:29.1062580+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,95
+2026-10-22T09:39:29.1561562+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,94
+2026-10-22T09:39:29.1564976+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,94
+2026-10-22T09:39:29.2060030+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,23
+2026-10-22T09:39:29.2060097+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,93
+2026-10-22T09:39:29.2061116+02:00,LocalVariable,Pressure Ox,ns=2;s=b7fca20b-c01d-4237-bc41-0ca6f2c08058,9
+2026-10-22T09:39:29.2061135+02:00,LocalVariable,Pressure Fuel,ns=2;s=8d8b724a-8fc8-4acd-80fa-1f85a11b395d,9
+2026-10-22T09:39:29.2061886+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,93
+2026-10-22T09:39:29.2062205+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,23
+2026-10-22T09:39:29.2063341+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,23
+2026-10-22T09:39:29.2063904+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,23
+2026-10-22T09:39:29.2065412+02:00,LocalVariable,FAULT_TC_FEED_PRESSURE,ns=2;s=e471a722-deb0-48f6-a545-e8ef0ebae803,False
+2026-10-22T09:39:29.2559921+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,92
+2026-10-22T09:39:29.2562135+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,92
+2026-10-22T09:39:29.3059565+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,91
+2026-10-22T09:39:29.3061324+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,91
+2026-10-22T09:39:29.3559264+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,90
+2026-10-22T09:39:29.3561717+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,90
+2026-10-22T09:39:29.4059101+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,22
+2026-10-22T09:39:29.4059191+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,89
+2026-10-22T09:39:29.4060762+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,89
+2026-10-22T09:39:29.4060973+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,22
+2026-10-22T09:39:29.4061612+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,22
+2026-10-22T09:39:29.4061830+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,22
+2026-10-22T09:39:29.4558140+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,88
+2026-10-22T09:39:29.4560089+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,88
+2026-10-22T09:39:29.5058968+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,87
+2026-10-22T09:39:29.5060669+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,87
+2026-10-22T09:39:29.5558655+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,86
+2026-10-22T09:39:29.5581643+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,86
+2026-10-22T09:39:29.6058444+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,21
+2026-10-22T09:39:29.6058504+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,85
+2026-10-22T09:39:29.6060029+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,85
+2026-10-22T09:39:29.6060262+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,21
+2026-10-22T09:39:29.6060918+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,21
+2026-10-22T09:39:29.6061208+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,21
+2026-10-22T09:39:29.6558479+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,84
+2026-10-22T09:39:29.6560412+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,84
+2026-10-22T09:39:29.7058399+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,83
+2026-10-22T09:39:29.7059182+02:00,LocalVariable,Pressure Ox,ns=2;s=b7fca20b-c01d-4237-bc41-0ca6f2c08058,8
+2026-10-22T09:39:29.7059437+02:00,LocalVariable,Pressure Fuel,ns=2;s=8d8b724a-8fc8-4acd-80fa-1f85a11b395d,8
+2026-10-22T09:39:29.7060193+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,83
+2026-10-22T09:39:29.7558017+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,82
+2026-10-22T09:39:29.7559995+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,82
+2026-10-22T09:39:29.8057952+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,20
+2026-10-22T09:39:29.8058195+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,81
+2026-10-22T09:39:29.8059991+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,81
+2026-10-22T09:39:29.8060527+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,20
+2026-10-22T09:39:29.8061532+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,20
+2026-10-22T09:39:29.8062150+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,20
+2026-10-22T09:39:29.8557948+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,80
+2026-10-22T09:39:29.8560708+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,80
+2026-10-22T09:39:29.9057304+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,79
+2026-10-22T09:39:29.9058788+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,79
+2026-10-22T09:39:29.9557751+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,78
+2026-10-22T09:39:29.9560297+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,78
+2026-10-22T09:39:30.0057506+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,19
+2026-10-22T09:39:30.0057598+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,77
+2026-10-22T09:39:30.0059180+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,77
+2026-10-22T09:39:30.0059415+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,19
+2026-10-22T09:39:30.0060072+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,19
+2026-10-22T09:39:30.0060392+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,19
+2026-10-22T09:39:30.0556984+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,76
+2026-10-22T09:39:30.0558842+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,76
+2026-10-22T09:39:30.1056757+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,75
+2026-10-22T09:39:30.1058192+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,75
+2026-10-22T09:39:30.1556553+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,74
+2026-10-22T09:39:30.1558094+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,74
+2026-10-22T09:39:30.2056641+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,18
+2026-10-22T09:39:30.2056689+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,73
+2026-10-22T09:39:30.2057833+02:00,LocalVariable,Pressure Ox,ns=2;s=b7fca20b-c01d-4237-bc41-0ca6f2c08058,7
+2026-10-22T09:39:30.2057859+02:00,LocalVariable,Pressure Fuel,ns=2;s=8d8b724a-8fc8-4acd-80fa-1f85a11b395d,7
+2026-10-22T09:39:30.2058500+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,73
+2026-10-22T09:39:30.2058718+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,18
+2026-10-22T09:39:30.2060200+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,18
+2026-10-22T09:39:30.2060223+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,18
+2026-10-22T09:39:30.2062553+02:00,LocalVariable,FAULT_TC_FEED_PRESSURE,ns=2;s=e471a722-deb0-48f6-a545-e8ef0ebae803,True
+2026-10-22T09:39:30.2062567+02:00,LocalVariable,FAULT_TC_OX_ULLAGE,ns=2;s=3f00b93d-59a8-4bc9-9dc8-38fe4e104685,True
+2026-10-22T09:39:30.2062576+02:00,LocalVariable,FAULT_TC_OX_LIQUID,ns=2;s=e80a5f68-797e-4347-b02a-96b447d096cd,False
+2026-10-22T09:39:30.2557098+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,72
+2026-10-22T09:39:30.2559161+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,72
+2026-10-22T09:39:30.3056389+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,71
+2026-10-22T09:39:30.3057798+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,71
+2026-10-22T09:39:30.3556674+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,70
+2026-10-22T09:39:30.3558502+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,70
+2026-10-22T09:39:30.4055865+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,17
+2026-10-22T09:39:30.4055921+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,69
+2026-10-22T09:39:30.4059505+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,69
+2026-10-22T09:39:30.4059542+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,17
+2026-10-22T09:39:30.4059559+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,17
+2026-10-22T09:39:30.4059566+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,17
+2026-10-22T09:39:30.4555987+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,68
+2026-10-22T09:39:30.4557410+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,68
+2026-10-22T09:39:30.5055174+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,67
+2026-10-22T09:39:30.5056529+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,67
+2026-10-22T09:39:30.5555052+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,66
+2026-10-22T09:39:30.5556483+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,66
+2026-10-22T09:39:30.6054756+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,16
+2026-10-22T09:39:30.6054843+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,65
+2026-10-22T09:39:30.6056148+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,65
+2026-10-22T09:39:30.6056356+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,16
+2026-10-22T09:39:30.6056930+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,16
+2026-10-22T09:39:30.6057173+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,16
+2026-10-22T09:39:30.6555218+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,64
+2026-10-22T09:39:30.6557398+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,64
+2026-10-22T09:39:30.7054654+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,63
+2026-10-22T09:39:30.7056397+02:00,LocalVariable,Pressure Ox,ns=2;s=b7fca20b-c01d-4237-bc41-0ca6f2c08058,6
+2026-10-22T09:39:30.7056413+02:00,LocalVariable,Pressure Fuel,ns=2;s=8d8b724a-8fc8-4acd-80fa-1f85a11b395d,6
+2026-10-22T09:39:30.7057603+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,63
+2026-10-22T09:39:30.7554950+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,62
+2026-10-22T09:39:30.7560599+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,62
+2026-10-22T09:39:30.8055070+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,15
+2026-10-22T09:39:30.8055162+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,61
+2026-10-22T09:39:30.8056818+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,61
+2026-10-22T09:39:30.8057040+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,15
+2026-10-22T09:39:30.8057655+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,15
+2026-10-22T09:39:30.8058091+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,15
+2026-10-22T09:39:30.8554265+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,60
+2026-10-22T09:39:30.8555993+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,60
+2026-10-22T09:39:30.9053778+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,59
+2026-10-22T09:39:30.9055200+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,59
+2026-10-22T09:39:30.9553771+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,58
+2026-10-22T09:39:30.9555492+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,58
+2026-10-22T09:39:31.0053703+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,14
+2026-10-22T09:39:31.0053764+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,57
+2026-10-22T09:39:31.0055169+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,57
+2026-10-22T09:39:31.0055382+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,14
+2026-10-22T09:39:31.0056044+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,14
+2026-10-22T09:39:31.0056266+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,14
+2026-10-22T09:39:31.0554297+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,56
+2026-10-22T09:39:31.0555726+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,56
+2026-10-22T09:39:31.1053324+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,55
+2026-10-22T09:39:31.1054734+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,55
+2026-10-22T09:39:31.1553461+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,54
+2026-10-22T09:39:31.1554797+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,54
+2026-10-22T09:39:31.2053505+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,13
+2026-10-22T09:39:31.2053558+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,53
+2026-10-22T09:39:31.2054429+02:00,LocalVariable,Pressure Ox,ns=2;s=b7fca20b-c01d-4237-bc41-0ca6f2c08058,5
+2026-10-22T09:39:31.2054450+02:00,LocalVariable,Pressure Fuel,ns=2;s=8d8b724a-8fc8-4acd-80fa-1f85a11b395d,5
+2026-10-22T09:39:31.2055140+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,53
+2026-10-22T09:39:31.2055384+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,13
+2026-10-22T09:39:31.2056616+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,13
+2026-10-22T09:39:31.2057091+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,13
+2026-10-22T09:39:31.2057911+02:00,LocalVariable,FAULT_TC_FEED_PRESSURE,ns=2;s=e471a722-deb0-48f6-a545-e8ef0ebae803,False
+2026-10-22T09:39:31.2553660+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,52
+2026-10-22T09:39:31.2554993+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,52
+2026-10-22T09:39:31.3053106+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,51
+2026-10-22T09:39:31.3054731+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,51
+2026-10-22T09:39:31.3552888+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,50
+2026-10-22T09:39:31.3554270+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,50
+2026-10-22T09:39:31.4052779+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,12
+2026-10-22T09:39:31.4052850+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,49
+2026-10-22T09:39:31.4054488+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,49
+2026-10-22T09:39:31.4054733+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,12
+2026-10-22T09:39:31.4055237+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,12
+2026-10-22T09:39:31.4055462+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,12
+2026-10-22T09:39:31.4552584+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,48
+2026-10-22T09:39:31.4554941+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,48
+2026-10-22T09:39:31.5052937+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,47
+2026-10-22T09:39:31.5054190+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,47
+2026-10-22T09:39:31.5553471+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,46
+2026-10-22T09:39:31.5555127+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,46
+2026-10-22T09:39:31.6052596+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,11
+2026-10-22T09:39:31.6052649+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,45
+2026-10-22T09:39:31.6054756+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,45
+2026-10-22T09:39:31.6054782+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,11
+2026-10-22T09:39:31.6055152+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,11
+2026-10-22T09:39:31.6055372+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,11
+2026-10-22T09:39:31.6553471+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,44
+2026-10-22T09:39:31.6555321+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,44
+2026-10-22T09:39:31.7052937+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,43
+2026-10-22T09:39:31.7054054+02:00,LocalVariable,Pressure Ox,ns=2;s=b7fca20b-c01d-4237-bc41-0ca6f2c08058,4
+2026-10-22T09:39:31.7054181+02:00,LocalVariable,Pressure Fuel,ns=2;s=8d8b724a-8fc8-4acd-80fa-1f85a11b395d,4
+2026-10-22T09:39:31.7055276+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,43
+2026-10-22T09:39:31.7553352+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,42
+2026-10-22T09:39:31.7554926+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,42
+2026-10-22T09:39:31.8052360+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,10
+2026-10-22T09:39:31.8052447+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,41
+2026-10-22T09:39:31.8053942+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,41
+2026-10-22T09:39:31.8053974+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,10
+2026-10-22T09:39:31.8054803+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,10
+2026-10-22T09:39:31.8055042+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,10
+2026-10-22T09:39:31.8553195+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,40
+2026-10-22T09:39:31.8555346+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,40
+2026-10-22T09:39:31.9052080+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,39
+2026-10-22T09:39:31.9053524+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,39
+2026-10-22T09:39:31.9552007+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,38
+2026-10-22T09:39:31.9553526+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,38
+2026-10-22T09:39:32.0051812+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,9
+2026-10-22T09:39:32.0051914+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,37
+2026-10-22T09:39:32.0053459+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,37
+2026-10-22T09:39:32.0053687+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,9
+2026-10-22T09:39:32.0054356+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,9
+2026-10-22T09:39:32.0054609+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,9
+2026-10-22T09:39:32.0551790+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,36
+2026-10-22T09:39:32.0553874+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,36
+2026-10-22T09:39:32.1051662+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,35
+2026-10-22T09:39:32.1053092+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,35
+2026-10-22T09:39:32.1551622+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,34
+2026-10-22T09:39:32.1552904+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,34
+2026-10-22T09:39:32.2052665+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,8
+2026-10-22T09:39:32.2052698+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,33
+2026-10-22T09:39:32.2054527+02:00,LocalVariable,Pressure Ox,ns=2;s=b7fca20b-c01d-4237-bc41-0ca6f2c08058,3
+2026-10-22T09:39:32.2054796+02:00,LocalVariable,Pressure Fuel,ns=2;s=8d8b724a-8fc8-4acd-80fa-1f85a11b395d,3
+2026-10-22T09:39:32.2056347+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,33
+2026-10-22T09:39:32.2056869+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,8
+2026-10-22T09:39:32.2057419+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,8
+2026-10-22T09:39:32.2057865+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,8
+2026-10-22T09:39:32.2059314+02:00,LocalVariable,FAULT_TC_FEED_PRESSURE,ns=2;s=e471a722-deb0-48f6-a545-e8ef0ebae803,True
+2026-10-22T09:39:32.2059322+02:00,LocalVariable,FAULT_TC_OX_ULLAGE,ns=2;s=3f00b93d-59a8-4bc9-9dc8-38fe4e104685,False
+2026-10-22T09:39:32.2551706+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,32
+2026-10-22T09:39:32.2553039+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,32
+2026-10-22T09:39:32.3051177+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,31
+2026-10-22T09:39:32.3053543+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,31
+2026-10-22T09:39:32.3552317+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,30
+2026-10-22T09:39:32.3559160+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,30
+2026-10-22T09:39:32.4052291+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,7
+2026-10-22T09:39:32.4052325+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,29
+2026-10-22T09:39:32.4055213+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,29
+2026-10-22T09:39:32.4056019+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,7
+2026-10-22T09:39:32.4056879+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,7
+2026-10-22T09:39:32.4056894+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,7
+2026-10-22T09:39:32.4551638+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,28
+2026-10-22T09:39:32.4554589+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,28
+2026-10-22T09:39:32.5050773+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,27
+2026-10-22T09:39:32.5068127+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,27
+2026-10-22T09:39:32.5550923+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,26
+2026-10-22T09:39:32.5552053+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,26
+2026-10-22T09:39:32.6050690+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,6
+2026-10-22T09:39:32.6050784+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,25
+2026-10-22T09:39:32.6052422+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,25
+2026-10-22T09:39:32.6052671+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,6
+2026-10-22T09:39:32.6053287+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,6
+2026-10-22T09:39:32.6053507+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,6
+2026-10-22T09:39:32.6551605+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,24
+2026-10-22T09:39:32.6553255+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,24
+2026-10-22T09:39:32.7050743+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,23
+2026-10-22T09:39:32.7051762+02:00,LocalVariable,Pressure Ox,ns=2;s=b7fca20b-c01d-4237-bc41-0ca6f2c08058,2
+2026-10-22T09:39:32.7051784+02:00,LocalVariable,Pressure Fuel,ns=2;s=8d8b724a-8fc8-4acd-80fa-1f85a11b395d,2
+2026-10-22T09:39:32.7052770+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,23
+2026-10-22T09:39:32.7551086+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,22
+2026-10-22T09:39:32.7552683+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,22
+2026-10-22T09:39:32.8050609+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,5
+2026-10-22T09:39:32.8050673+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,21
+2026-10-22T09:39:32.8052690+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,21
+2026-10-22T09:39:32.8052708+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,5
+2026-10-22T09:39:32.8053309+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,5
+2026-10-22T09:39:32.8053543+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,5
+2026-10-22T09:39:32.8551094+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,20
+2026-10-22T09:39:32.8552552+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,20
+2026-10-22T09:39:32.9051034+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,19
+2026-10-22T09:39:32.9052546+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,19
+2026-10-22T09:39:32.9550928+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,18
+2026-10-22T09:39:32.9552220+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,18
+2026-10-22T09:39:33.0050484+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,4
+2026-10-22T09:39:33.0050543+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,17
+2026-10-22T09:39:33.0052415+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,17
+2026-10-22T09:39:33.0052437+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,4
+2026-10-22T09:39:33.0053069+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,4
+2026-10-22T09:39:33.0053328+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,4
+2026-10-22T09:39:33.0552099+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,16
+2026-10-22T09:39:33.0552678+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,16
+2026-10-22T09:39:33.1050214+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,15
+2026-10-22T09:39:33.1051667+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,15
+2026-10-22T09:39:33.1550320+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,14
+2026-10-22T09:39:33.1551798+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,14
+2026-10-22T09:39:33.2049652+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,3
+2026-10-22T09:39:33.2049725+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,13
+2026-10-22T09:39:33.2051073+02:00,LocalVariable,Pressure Ox,ns=2;s=b7fca20b-c01d-4237-bc41-0ca6f2c08058,1
+2026-10-22T09:39:33.2051093+02:00,LocalVariable,Pressure Fuel,ns=2;s=8d8b724a-8fc8-4acd-80fa-1f85a11b395d,1
+2026-10-22T09:39:33.2051775+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,13
+2026-10-22T09:39:33.2051982+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,3
+2026-10-22T09:39:33.2052640+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,3
+2026-10-22T09:39:33.2052885+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,3
+2026-10-22T09:39:33.2055198+02:00,LocalVariable,FAULT_TC_FEED_PRESSURE,ns=2;s=e471a722-deb0-48f6-a545-e8ef0ebae803,False
+2026-10-22T09:39:33.2549293+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,12
+2026-10-22T09:39:33.2550798+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,12
+2026-10-22T09:39:33.3049774+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,11
+2026-10-22T09:39:33.3051587+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,11
+2026-10-22T09:39:33.3351632+02:00,LocalVariable,EXCITER NEG,ns=2;s=ebdaf874-e32b-4ee5-9909-8c47f069e89e,False
+2026-10-22T09:39:33.3352215+02:00,LocalVariable,Igniter OX,ns=2;s=2ec78248-dd8f-4cee-bc17-18806a956e24,False
+2026-10-22T09:39:33.3352256+02:00,LocalVariable,Igniter FUEL,ns=2;s=c8c9c9a9-506b-44d7-93b7-ad953a5e7c1d,False
+2026-10-22T09:39:33.3352267+02:00,LocalVariable,Igniter PURGE,ns=2;s=20788fbc-b511-4186-88ff-6a8928e8b23c,True
+2026-10-22T09:39:33.3549511+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,10
+2026-10-22T09:39:33.3550924+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,10
+2026-10-22T09:39:33.4049207+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,2
+2026-10-22T09:39:33.4049276+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,9
+2026-10-22T09:39:33.4050287+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,9
+2026-10-22T09:39:33.4050424+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,2
+2026-10-22T09:39:33.4050950+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,2
+2026-10-22T09:39:33.4051105+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,2
+2026-10-22T09:39:33.4548685+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,8
+2026-10-22T09:39:33.4550389+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,8
+2026-10-22T09:39:33.5049158+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,7
+2026-10-22T09:39:33.5051028+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,7
+2026-10-22T09:39:33.5550150+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,6
+2026-10-22T09:39:33.5551160+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,6
+2026-10-22T09:39:33.6049021+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,1
+2026-10-22T09:39:33.6049075+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,5
+2026-10-22T09:39:33.6050621+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,5
+2026-10-22T09:39:33.6050835+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,1
+2026-10-22T09:39:33.6051522+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,1
+2026-10-22T09:39:33.6051754+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,1
+2026-10-22T09:39:33.6549915+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,4
+2026-10-22T09:39:33.6552113+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,4
+2026-10-22T09:39:33.7048736+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,3
+2026-10-22T09:39:33.7049709+02:00,LocalVariable,Pressure Ox,ns=2;s=b7fca20b-c01d-4237-bc41-0ca6f2c08058,0
+2026-10-22T09:39:33.7049731+02:00,LocalVariable,Pressure Fuel,ns=2;s=8d8b724a-8fc8-4acd-80fa-1f85a11b395d,0
+2026-10-22T09:39:33.7050766+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,3
+2026-10-22T09:39:33.7549343+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,2
+2026-10-22T09:39:33.7550384+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,2
+2026-10-22T09:39:33.8048462+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,0
+2026-10-22T09:39:33.8048561+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,1
+2026-10-22T09:39:33.8050490+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,1
+2026-10-22T09:39:33.8050741+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,0
+2026-10-22T09:39:33.8051821+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,0
+2026-10-22T09:39:33.8051869+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,0
+2026-10-22T09:39:33.8548632+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,0
+2026-10-22T09:39:33.8550337+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,0
+2026-10-22T09:39:33.9048286+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-1
+2026-10-22T09:39:33.9050254+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-1
+2026-10-22T09:39:33.9548594+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-2
+2026-10-22T09:39:33.9550200+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-2
+2026-10-22T09:39:34.0048098+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,-1
+2026-10-22T09:39:34.0048187+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-3
+2026-10-22T09:39:34.0050153+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-3
+2026-10-22T09:39:34.0050407+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,-1
+2026-10-22T09:39:34.0051012+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,-1
+2026-10-22T09:39:34.0051306+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,-1
+2026-10-22T09:39:34.0547763+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-4
+2026-10-22T09:39:34.0550182+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-4
+2026-10-22T09:39:34.1047735+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-5
+2026-10-22T09:39:34.1050618+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-5
+2026-10-22T09:39:34.1594432+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-6
+2026-10-22T09:39:34.1594477+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-6
+2026-10-22T09:39:34.2048220+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,-2
+2026-10-22T09:39:34.2048315+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-7
+2026-10-22T09:39:34.2049558+02:00,LocalVariable,Pressure Ox,ns=2;s=b7fca20b-c01d-4237-bc41-0ca6f2c08058,-1
+2026-10-22T09:39:34.2049823+02:00,LocalVariable,Pressure Fuel,ns=2;s=8d8b724a-8fc8-4acd-80fa-1f85a11b395d,-1
+2026-10-22T09:39:34.2050518+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-7
+2026-10-22T09:39:34.2050767+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,-2
+2026-10-22T09:39:34.2052069+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,-2
+2026-10-22T09:39:34.2052484+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,-2
+2026-10-22T09:39:34.2054887+02:00,LocalVariable,FAULT_TC_FEED_PRESSURE,ns=2;s=e471a722-deb0-48f6-a545-e8ef0ebae803,True
+2026-10-22T09:39:34.2054929+02:00,LocalVariable,FAULT_TC_OX_ULLAGE,ns=2;s=3f00b93d-59a8-4bc9-9dc8-38fe4e104685,True
+2026-10-22T09:39:34.2054937+02:00,LocalVariable,FAULT_TC_OX_LIQUID,ns=2;s=e80a5f68-797e-4347-b02a-96b447d096cd,True
+2026-10-22T09:39:34.2054943+02:00,LocalVariable,FAULT_TC_OX_INJECTOR,ns=2;s=8553371a-a797-47b9-8152-17886586a9b1,True
+2026-10-22T09:39:34.2054952+02:00,LocalVariable,FAULT_TC_FUEL_ULLAGE,ns=2;s=0ad99da1-c055-4f95-ac91-28ae9b4689dc,True
+2026-10-22T09:39:34.2054959+02:00,LocalVariable,FAULT_TC_FUEL_LIQUID,ns=2;s=f6962feb-538e-420c-8449-d6037b1fe587,True
+2026-10-22T09:39:34.2054967+02:00,LocalVariable,FAULT_TC_FUEL_INJECTOR,ns=2;s=327a99ce-8616-4768-a103-9e71fe0c09ab,True
+2026-10-22T09:39:34.2054974+02:00,LocalVariable,FAULT_TC_COMBUSTION_CHAMBER,ns=2;s=5c9e91fc-e376-48fd-9115-9c6d009c3342,True
+2026-10-22T09:39:34.2054982+02:00,LocalVariable,FAULT_TC_IGNITER_OX,ns=2;s=bc2b8751-c8a9-444f-bffa-559d95f54491,True
+2026-10-22T09:39:34.2054988+02:00,LocalVariable,FAULT_TC_IGNITER_FUEL,ns=2;s=a03d9ffc-0316-483f-b5ac-313d97ec696e,True
+2026-10-22T09:39:34.2054995+02:00,LocalVariable,FAULT_PT_OX_BANK,ns=2;s=9bdb581a-bd09-4006-aebe-baecc8f27881,True
+2026-10-22T09:39:34.2055001+02:00,LocalVariable,FAULT_PT_V_SPARE1,ns=2;s=0e5108c1-0ae7-4742-b578-1d5b5777eabe,True
+2026-10-22T09:39:34.2055011+02:00,LocalVariable,FAULT_PT_V_SPARE2,ns=2;s=fc3ad68e-f382-45fe-bc0a-6d892aff51ef,True
+2026-10-22T09:39:34.2055023+02:00,LocalVariable,FAULT_PT_FEED_PRESSURE,ns=2;s=91cab42a-32f9-414e-bbe4-ef7b0f458304,True
+2026-10-22T09:39:34.2055033+02:00,LocalVariable,FAULT_PT_OX_ULLAGE,ns=2;s=2eb747d1-ad0f-4ae2-b99d-c46b8c8af18b,True
+2026-10-22T09:39:34.2055044+02:00,LocalVariable,FAULT_PT_OX_LIQUID,ns=2;s=218e1939-2ec4-43bb-9768-9920af0b86f7,True
+2026-10-22T09:39:34.2055049+02:00,LocalVariable,FAULT_PT_OX_INJECTOR,ns=2;s=b5c88666-a93c-446e-9bb0-682caa350e69,True
+2026-10-22T09:39:34.2055055+02:00,LocalVariable,FAULT_PT_FUEL_ULLAGE,ns=2;s=70e101e2-9588-47af-9844-35cd16994df6,True
+2026-10-22T09:39:34.2055061+02:00,LocalVariable,FAULT_PT_FUEL_LIQUID,ns=2;s=0510f47d-8e22-4235-baa8-9ec6d865afa6,True
+2026-10-22T09:39:34.2055067+02:00,LocalVariable,FAULT_PT_FUEL_INJECTOR,ns=2;s=2169243b-a056-40cb-b2df-55ba4bdb85d1,True
+2026-10-22T09:39:34.2055073+02:00,LocalVariable,FAULT_PT_COMBUSTION_CHAMBER,ns=2;s=6859c8b7-e34f-4113-92f4-a59753e5f23d,True
+2026-10-22T09:39:34.2055080+02:00,LocalVariable,FAULT_PT_IGNITER_OX,ns=2;s=24ab52cd-326b-47bb-8448-ddbd3ef8b01a,True
+2026-10-22T09:39:34.2055086+02:00,LocalVariable,FAULT_PT_IGNITER_FUEL,ns=2;s=42f19915-e00b-4bca-8bf2-f4aab7d8e22c,True
+2026-10-22T09:39:34.2548006+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-8
+2026-10-22T09:39:34.2549735+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-8
+2026-10-22T09:39:34.3047318+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-9
+2026-10-22T09:39:34.3049167+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-9
+2026-10-22T09:39:34.3547230+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-10
+2026-10-22T09:39:34.3548688+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-10
+2026-10-22T09:39:34.4046145+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,-3
+2026-10-22T09:39:34.4046211+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-11
+2026-10-22T09:39:34.4047962+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-11
+2026-10-22T09:39:34.4048380+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,-3
+2026-10-22T09:39:34.4048764+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,-3
+2026-10-22T09:39:34.4048773+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,-3
+2026-10-22T09:39:34.4547201+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-12
+2026-10-22T09:39:34.4549255+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-12
+2026-10-22T09:39:34.5046786+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-13
+2026-10-22T09:39:34.5048895+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-13
+2026-10-22T09:39:34.5546505+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-14
+2026-10-22T09:39:34.5548376+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-14
+2026-10-22T09:39:34.6046337+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,-4
+2026-10-22T09:39:34.6046442+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-15
+2026-10-22T09:39:34.6048567+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-15
+2026-10-22T09:39:34.6048845+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,-4
+2026-10-22T09:39:34.6050296+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,-4
+2026-10-22T09:39:34.6050330+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,-4
+2026-10-22T09:39:34.6546230+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-16
+2026-10-22T09:39:34.6548535+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-16
+2026-10-22T09:39:34.7046079+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-17
+2026-10-22T09:39:34.7047620+02:00,LocalVariable,Pressure Ox,ns=2;s=b7fca20b-c01d-4237-bc41-0ca6f2c08058,-2
+2026-10-22T09:39:34.7047636+02:00,LocalVariable,Pressure Fuel,ns=2;s=8d8b724a-8fc8-4acd-80fa-1f85a11b395d,-2
+2026-10-22T09:39:34.7048498+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-17
+2026-10-22T09:39:34.7546336+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-18
+2026-10-22T09:39:34.7548045+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-18
+2026-10-22T09:39:34.8050574+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,-5
+2026-10-22T09:39:34.8050648+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-19
+2026-10-22T09:39:34.8050665+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-19
+2026-10-22T09:39:34.8050673+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,-5
+2026-10-22T09:39:34.8050679+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,-5
+2026-10-22T09:39:34.8050687+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,-5
+2026-10-22T09:39:34.8545371+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-20
+2026-10-22T09:39:34.8547119+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-20
+2026-10-22T09:39:34.9045223+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-21
+2026-10-22T09:39:34.9046677+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-21
+2026-10-22T09:39:34.9545299+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-22
+2026-10-22T09:39:34.9546580+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-22
+2026-10-22T09:39:35.0045167+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,-6
+2026-10-22T09:39:35.0045244+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-23
+2026-10-22T09:39:35.0046654+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-23
+2026-10-22T09:39:35.0046848+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,-6
+2026-10-22T09:39:35.0047574+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,-6
+2026-10-22T09:39:35.0047944+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,-6
+2026-10-22T09:39:35.0545392+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-24
+2026-10-22T09:39:35.0547179+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-24
+2026-10-22T09:39:35.1044934+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-25
+2026-10-22T09:39:35.1046085+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-25
+2026-10-22T09:39:35.1544165+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-26
+2026-10-22T09:39:35.1545766+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-26
+2026-10-22T09:39:35.2044125+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,-5
+2026-10-22T09:39:35.2044199+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-25
+2026-10-22T09:39:35.2045597+02:00,LocalVariable,Pressure Ox,ns=2;s=b7fca20b-c01d-4237-bc41-0ca6f2c08058,-1
+2026-10-22T09:39:35.2045614+02:00,LocalVariable,Pressure Fuel,ns=2;s=8d8b724a-8fc8-4acd-80fa-1f85a11b395d,-1
+2026-10-22T09:39:35.2046115+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-25
+2026-10-22T09:39:35.2046338+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,-5
+2026-10-22T09:39:35.2046973+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,-5
+2026-10-22T09:39:35.2047213+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,-5
+2026-10-22T09:39:35.2048690+02:00,LocalVariable,FAULT_TC_FEED_PRESSURE,ns=2;s=e471a722-deb0-48f6-a545-e8ef0ebae803,False
+2026-10-22T09:39:35.2048701+02:00,LocalVariable,FAULT_TC_OX_ULLAGE,ns=2;s=3f00b93d-59a8-4bc9-9dc8-38fe4e104685,False
+2026-10-22T09:39:35.2049531+02:00,LocalVariable,FAULT_TC_OX_LIQUID,ns=2;s=e80a5f68-797e-4347-b02a-96b447d096cd,False
+2026-10-22T09:39:35.2049542+02:00,LocalVariable,FAULT_TC_OX_INJECTOR,ns=2;s=8553371a-a797-47b9-8152-17886586a9b1,False
+2026-10-22T09:39:35.2049549+02:00,LocalVariable,FAULT_TC_FUEL_ULLAGE,ns=2;s=0ad99da1-c055-4f95-ac91-28ae9b4689dc,False
+2026-10-22T09:39:35.2049555+02:00,LocalVariable,FAULT_TC_FUEL_LIQUID,ns=2;s=f6962feb-538e-420c-8449-d6037b1fe587,False
+2026-10-22T09:39:35.2049561+02:00,LocalVariable,FAULT_TC_FUEL_INJECTOR,ns=2;s=327a99ce-8616-4768-a103-9e71fe0c09ab,False
+2026-10-22T09:39:35.2049567+02:00,LocalVariable,FAULT_TC_COMBUSTION_CHAMBER,ns=2;s=5c9e91fc-e376-48fd-9115-9c6d009c3342,False
+2026-10-22T09:39:35.2049573+02:00,LocalVariable,FAULT_TC_IGNITER_OX,ns=2;s=bc2b8751-c8a9-444f-bffa-559d95f54491,False
+2026-10-22T09:39:35.2049579+02:00,LocalVariable,FAULT_TC_IGNITER_FUEL,ns=2;s=a03d9ffc-0316-483f-b5ac-313d97ec696e,False
+2026-10-22T09:39:35.2049588+02:00,LocalVariable,FAULT_PT_OX_BANK,ns=2;s=9bdb581a-bd09-4006-aebe-baecc8f27881,False
+2026-10-22T09:39:35.2049595+02:00,LocalVariable,FAULT_PT_V_SPARE1,ns=2;s=0e5108c1-0ae7-4742-b578-1d5b5777eabe,False
+2026-10-22T09:39:35.2053002+02:00,LocalVariable,FAULT_PT_V_SPARE2,ns=2;s=fc3ad68e-f382-45fe-bc0a-6d892aff51ef,False
+2026-10-22T09:39:35.2053018+02:00,LocalVariable,FAULT_PT_FEED_PRESSURE,ns=2;s=91cab42a-32f9-414e-bbe4-ef7b0f458304,False
+2026-10-22T09:39:35.2053026+02:00,LocalVariable,FAULT_PT_OX_ULLAGE,ns=2;s=2eb747d1-ad0f-4ae2-b99d-c46b8c8af18b,False
+2026-10-22T09:39:35.2053032+02:00,LocalVariable,FAULT_PT_OX_LIQUID,ns=2;s=218e1939-2ec4-43bb-9768-9920af0b86f7,False
+2026-10-22T09:39:35.2053038+02:00,LocalVariable,FAULT_PT_OX_INJECTOR,ns=2;s=b5c88666-a93c-446e-9bb0-682caa350e69,False
+2026-10-22T09:39:35.2053043+02:00,LocalVariable,FAULT_PT_FUEL_ULLAGE,ns=2;s=70e101e2-9588-47af-9844-35cd16994df6,False
+2026-10-22T09:39:35.2053049+02:00,LocalVariable,FAULT_PT_FUEL_LIQUID,ns=2;s=0510f47d-8e22-4235-baa8-9ec6d865afa6,False
+2026-10-22T09:39:35.2053057+02:00,LocalVariable,FAULT_PT_FUEL_INJECTOR,ns=2;s=2169243b-a056-40cb-b2df-55ba4bdb85d1,False
+2026-10-22T09:39:35.2053063+02:00,LocalVariable,FAULT_PT_COMBUSTION_CHAMBER,ns=2;s=6859c8b7-e34f-4113-92f4-a59753e5f23d,False
+2026-10-22T09:39:35.2053071+02:00,LocalVariable,FAULT_PT_IGNITER_OX,ns=2;s=24ab52cd-326b-47bb-8448-ddbd3ef8b01a,False
+2026-10-22T09:39:35.2053077+02:00,LocalVariable,FAULT_PT_IGNITER_FUEL,ns=2;s=42f19915-e00b-4bca-8bf2-f4aab7d8e22c,False
+2026-10-22T09:39:35.2543272+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-24
+2026-10-22T09:39:35.2544767+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-24
+2026-10-22T09:39:35.3043870+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-23
+2026-10-22T09:39:35.3045325+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-23
+2026-10-22T09:39:35.3343895+02:00,LocalVariable,STATE_IDLE,ns=2;s=cbc27595-c17d-42fc-9351-18fd76c250eb,True
+2026-10-22T09:39:35.3343995+02:00,LocalVariable,STATE_FIRE,ns=2;s=2d4c4987-37d8-4972-942b-34936e4b83c8,False
+2026-10-22T09:39:35.3346941+02:00,LocalVariable,Igniter PURGE,ns=2;s=20788fbc-b511-4186-88ff-6a8928e8b23c,False
+2026-10-22T09:39:35.3543934+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-22
+2026-10-22T09:39:35.3545419+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-22
+2026-10-22T09:39:35.4043768+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-21
+2026-10-22T09:39:35.4045377+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-21
+2026-10-22T09:39:35.4142659+02:00,LocalVariable,Pressure Feed,ns=2;s=f77998ca-3e96-487e-84b7-55215ef9836b,-4
+2026-10-22T09:39:35.4144179+02:00,LocalVariable,Temp Fuel,ns=2;s=18ef5718-c5ba-428f-9216-888472bf5b89,-4
+2026-10-22T09:39:35.4144793+02:00,LocalVariable,Pressure Ox Ullage/Inlet,ns=2;s=22cecea6-a66b-4e66-b545-dfad46c74969,-4
+2026-10-22T09:39:35.4144898+02:00,LocalVariable,Pressure Fuel Ullage/Inlet,ns=2;s=b79a61a0-720f-4f91-b98d-9f131d90e50b,-4
+2026-10-22T09:39:35.4543823+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-20
+2026-10-22T09:39:35.4545570+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-20
+2026-10-22T09:39:35.5043207+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-19
+2026-10-22T09:39:35.5044518+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-19
+2026-10-22T09:39:35.5543534+02:00,LocalVariable,Temp Feed,ns=2;s=2bd8b3ef-6b71-49b1-a6fe-044ec1cc6a88,-18
+2026-10-22T09:39:35.5545014+02:00,LocalVariable,Temp Ox,ns=2;s=00246ae7-b139-4f6b-89a1-aaa4aaf30825,-18
