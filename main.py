@@ -77,7 +77,7 @@ def load(path):
             bools[name] = (rows["t"], values.eq("true"))
         else:
             numeric[name] = (rows["t"], pd.to_numeric(rows["value"], errors="coerce"))
-    return numeric, bools, triggers
+    return numeric, bools, triggers, df["t"].max()
 
 
 def rising_edges(t, on):
@@ -86,7 +86,13 @@ def rising_edges(t, on):
     return t[edge]
 
 
-def find_window(bools, start_state, end_state):
+def find_window(bools, start_state, end_state, log_end):
+    """log_end: the last timestamp anywhere in the log — the fallback window end when
+    end_state never rises again after start (e.g. the log just stops mid-burn with no
+    recorded recovery). Falling back to end_state's own last logged change instead would
+    be wrong here: that's often a change from *before* start (e.g. its initial False
+    transition), which would produce a negative-duration window.
+    """
     starts = rising_edges(*bools[start_state])
     if starts.empty:
         raise ValueError(f"{start_state} is never True in this log")
@@ -94,7 +100,7 @@ def find_window(bools, start_state, end_state):
 
     ends = rising_edges(*bools[end_state])
     ends = ends[ends > start]
-    end = ends.iloc[0] if not ends.empty else bools[end_state][0].iloc[-1]
+    end = ends.iloc[0] if not ends.empty else log_end
     return start, end
 
 
@@ -224,9 +230,35 @@ button { font:inherit; background:none; color:var(--fg); border:1px solid var(--
 button:hover { border-color:var(--accent); }
 li button { padding:0 6px; border:none; color:var(--muted); }
 @media (max-width: 800px) { .wrap { flex-direction:column; } aside { width:auto; border-left:none; padding-left:0; } }
+#help-btn { position:fixed; bottom:16px; right:16px; z-index:10; width:30px; height:30px; padding:0;
+  border-radius:50%; font-weight:600; }
+.modal-backdrop { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.4); z-index:20;
+  align-items:center; justify-content:center; }
+.modal-backdrop.open { display:flex; }
+.modal { position:relative; background:var(--bg); color:var(--fg); border:1px solid var(--line); border-radius:10px;
+  padding:20px 24px; max-width:420px; width:calc(100% - 32px); max-height:calc(100vh - 64px); overflow-y:auto; }
+.modal h2 { margin-top:0; }
+.modal button.close { position:absolute; top:12px; right:12px; padding:2px 8px; }
+.modal ul { margin:0; }
+.modal li { display:block; border-bottom:1px solid var(--line); padding:8px 0; }
+.modal li:last-child { border-bottom:none; }
+.modal li b { display:block; margin-bottom:2px; }
 </style>
 </head>
 <body>
+<button id="help-btn" title="How to use this page">?</button>
+<div class="modal-backdrop" id="help-backdrop">
+  <div class="modal">
+    <button class="close" id="help-close" title="Close">✕</button>
+    <h2>How to use this page</h2>
+    <ul>
+      <li><b>Legend</b>Click an entry to show/hide that signal. Double-click to isolate it (hide all others).</li>
+      <li><b>Zoom</b>Drag on the graph to zoom into a time range. Double-click the graph to reset.</li>
+      <li><b>Events</b>Small ticks at the bottom of each graph mark STATE/FAULT/IO signals turning on — hover one to see what happened. The sidebar list shows the same events; click one to zoom to it.</li>
+      <li><b>Points of interest</b>Click anywhere on a graph to label that moment. Click a mark in the sidebar list to zoom back to it, or the ✕ to remove it. Marks are saved in this browser and can be exported to CSV.</li>
+    </ul>
+  </div>
+</div>
 <div class="wrap">
   <div id="plot"></div>
   <aside>
@@ -308,6 +340,12 @@ function renderEvents() {
 }
 renderEvents();
 
+const helpBackdrop = document.getElementById("help-backdrop");
+document.getElementById("help-btn").onclick = () => helpBackdrop.classList.add("open");
+document.getElementById("help-close").onclick = () => helpBackdrop.classList.remove("open");
+helpBackdrop.onclick = ev => { if (ev.target === helpBackdrop) helpBackdrop.classList.remove("open"); };
+document.addEventListener("keydown", ev => { if (ev.key === "Escape") helpBackdrop.classList.remove("open"); });
+
 Plotly.newPlot(plot, fig.data, Object.assign(fig.layout, themeLayout()), { responsive: true, displaylogo: false })
   .then(() => {
     render();
@@ -349,8 +387,8 @@ def main():
                      help="skip the STATE/FAULT/IO events sidebar list")
     args = ap.parse_args()
 
-    numeric, bools, _triggers = load(args.log)
-    start, end = find_window(bools, args.start_state, args.end_state)
+    numeric, bools, _triggers, log_end = load(args.log)
+    start, end = find_window(bools, args.start_state, args.end_state, log_end)
     print(f"window: {args.start_state} at {start} -> {args.end_state} at {end} ({(end - start).total_seconds():.3f} s)")
 
     numeric = {name: clip(t, v, start, end) for name, (t, v) in numeric.items()}

@@ -17,9 +17,15 @@ dependencies by hand.
 
 ## Input format
 
-`ALL_events.csv` (and the other `test data/*_events` files, which are
-category-filtered subsets of the same export) is a headerless, long-format
-OPC-UA change log, one row per value change:
+`ALL_events.csv` is a real sample export. The other `test data/*_events.csv`
+files are synthetic, generated to exercise scenarios the real sample
+doesn't: `second_test_events.csv` (an ordinary cycle with different
+peak values/fault count), `no_end_state_events.csv` (`STATE_FIRE` triggers
+but `STATE_IDLE` never rises again — tests `find_window()`'s fallback),
+`no_faults_events.csv` (zero `FAULT_*` signals), and `multi_fire_events.csv`
+(three separate `STATE_FIRE`/`STATE_IDLE` cycles — only the first is ever
+plotted; see "Known limitations" below). All are headerless, long-format
+OPC-UA change logs, one row per value change:
 
 ```
 timestamp,type,name,node_id,value
@@ -35,10 +41,24 @@ timestamp,type,name,node_id,value
 
 - `load()` groups the log by `name` and classifies each signal: all-bool
   values → bool signal, `LocalEvent` type → momentary trigger, else numeric.
+  It also returns the log's overall last timestamp (`log_end`), used only as
+  `find_window()`'s fallback — see below.
 - The plotted window is derived automatically: it runs from the rising edge
   of `--start-state` (default `STATE_FIRE`) to the next rising edge of
   `--end-state` (default `STATE_IDLE`) after it, rezeroed so the start is
-  t = 0. Numeric signals are clipped to that window before plotting.
+  t = 0. Numeric signals are clipped to that window before plotting. If
+  `--end-state` never rises again after start (log cuts off mid-burn, e.g.
+  `no_end_state_events.csv`), the window instead ends at `log_end` — the
+  last timestamp anywhere in the log. It deliberately does *not* fall back
+  to end_state's own last logged change: that's often a change from
+  *before* start (e.g. its initial False transition on the way into the
+  burn), which produced a negative-duration window until this was caught.
+- **Known limitation**: `find_window()` only ever finds the *first*
+  `--start-state`/`--end-state` pair. A log with multiple fire cycles (e.g.
+  `multi_fire_events.csv`) only ever plots the first one — later cycles are
+  silently clipped away, not an error. Not yet addressed; if asked for, the
+  likely design is overlaying all cycles rezeroed to their own t=0,
+  color/legend-grouped by cycle number, rather than one shared window.
 - Exactly two numeric graphs are drawn, stacked with a shared x-axis:
   Pressure and Temperature (one line per signal, e.g. `Pressure Feed`,
   `Temp Ox` — see `PANELS`). Each line is independently toggleable via the
@@ -81,7 +101,9 @@ timestamp,type,name,node_id,value
   show/hide a numeric signal, double-click to isolate it, drag to zoom,
   hover a tick or click an Events entry to see/jump to that moment, click a
   point on the graph to mark it as a point of interest (stored in
-  `localStorage`, exportable to CSV).
+  `localStorage`, exportable to CSV). A `?` button fixed top-right opens a
+  modal with the same instructions in one place (closes via its ✕, clicking
+  outside it, or Escape) — plain HTML/CSS/JS, no Plotly involvement.
 - `--numeric-only` skips `event_markers()` entirely (empty Events list and
   no ticks), useful for checking the numeric panels in isolation.
 
